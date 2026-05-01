@@ -5,14 +5,18 @@
     <!-- Current Readings -->
     <div class="section">
       <h3>Current Readings</h3>
+      <p>Import</p>
       <input v-model.number="currentImport" type="number" placeholder="Current Import" />
+      <p>Export</p>
       <input v-model.number="currentExport" type="number" placeholder="Current Export" />
     </div>
 
     <!-- Previous Readings -->
     <div class="section">
       <h3>Previous Readings</h3>
+      <p>Import</p>
       <input v-model.number="previousImport" type="number" placeholder="Previous Import" />
+      <p>Export</p>
       <input v-model.number="previousExport" type="number" placeholder="Previous Export" />
     </div>
 
